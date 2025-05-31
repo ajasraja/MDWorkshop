@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Create a Post on TWT App</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+/* From extension fantasy.markdown-all-in-one-for-web */
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+}
+/* Error */
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="create-a-post-on-twt-app">Create a Post on TWT App</h1>
+<ul>
+<li><a href="#create-a-post-on-twt-app">Create a Post on TWT App</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#adding-a-post-on-tech-writers-tribe-app">Adding a Post on Tech Writers Tribe App</a>
+<ul>
+<li><a href="#add-a-text-only-post">Add a Text-only Post</a></li>
+<li><a href="#add-a-quiz">Add a Quiz</a></li>
+<li><a href="#add-a-poll">Add a Poll</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="overview">Overview</h2>
+<p>The Post feature in Tech Writers Tribe application enables you to broadcast messages and media files to all the members in the community. You can add the post either using a web browser or the mobile Application The post feature supports different messages such as text messages, images, videos, question, poll, documents, quiz. Additionally, the mobile application enables you to add voice note as a post.</p>
+<p>The post options, such as poll, documents, and quiz help you get the opinion and insights of the other community members regarding the topic of the post. By using this information, you could make informed decisions. Image and video post make the topic more engaging.</p>
+<p><strong>Prerequisites</strong></p>
+<ul>
+<li>Active internet connection.</li>
+<li>Active account registered in Tech Writers Tribe App.</li>
+</ul>
+<h2 id="adding-a-post-on-tech-writers-tribe-app">Adding a Post on Tech Writers Tribe App</h2>
+<p>There are different types of post you can post in TWT App. The following are the types:</p>
+<ul>
+<li>Add a Text-only Post.</li>
+<li>Add a Quiz.</li>
+<li>Add a Poll.</li>
+<li>Add an Image.</li>
+<li>Add a Video.</li>
+<li>Add a Document.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Sl. No.</th>
+<th>Type of Post</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Text only post</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Quiz post</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Poll post</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Image post</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Video post</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Document Post</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https:/Users/ajasraja/VSC/MDWorkshop/Images/D350AEC0-10C3-43DE-AA01-2F80019A6E2C_1_105_c.jpeg" alt="Image"></p>
+<h3 id="add-a-text-only-post">Add a Text-only Post</h3>
+<p>You can share texts as post which you want to inform other members in the App.</p>
+<p>To create a Text-only Post, Click <a href="https://techwriterstribe.rpy.club">here</a></p>
+<p>On the Tech Writers Tribe App, perform one of the following:</p>
+<ol>
+<li>
+<p>On the left pane, select <strong>Create a Post</strong>.</p>
+</li>
+<li>
+<p>On the center pane, select the <strong>Add (+)</strong> button.</p>
+</li>
+<li>
+<p>On the center pane, click on <strong>Share something with the community.</strong></p>
+<p>Create a Post dialog box appears.</p>
+</li>
+<li>
+<p>In the dialog box, type the required text.</p>
+</li>
+<li>
+<p>Select <strong>Post</strong>.</p>
+</li>
+</ol>
+<p>Text-only post is created.</p>
+<p><img src="https:/Users/ajasraja/VSC/MDWorkshop/Images/C52F94D3-CD49-4792-8ACF-70B2AE57C764.jpeg" alt="Image"></p>
+<h3 id="add-a-quiz">Add a Quiz</h3>
+<p>To add a quiz,</p>
+<p>On the Tech Writers Tribe App, perform one of the following:</p>
+<ol>
+<li>
+<p>On the left pane, select <strong>Create a Post</strong>.</p>
+</li>
+<li>
+<p>On the center pane, select the <strong>Add (+)</strong> button.</p>
+</li>
+<li>
+<p>On the center pane, click on <strong>Share something with the community</strong>. Create a Post dialog box appears.</p>
+</li>
+<li>
+<p>In the dialog box, select the <strong>Add Quiz</strong> icon.</p>
+</li>
+<li>
+<p>In the Add Quiz dialog box, in <strong>Your Question field</strong>, enter the desired question.</p>
+<p><strong>Note:</strong> The word limit is 550.</p>
+</li>
+<li>
+<p>In the <strong>Options</strong> field, enter the options</p>
+<p><strong>Note:</strong> To add more options, select Add more. You can add minimum of 2 and maximum of 6 Options can be added.</p>
+</li>
+<li>
+<p>In the <strong>Answer field</strong>, select the Option with the correct answer.</p>
+</li>
+<li>
+<p>From the <strong>Expiry dropdown</strong>, select the desired duration of the quiz.</p>
+</li>
+<li>
+<p>(Optional) On the right pane of dialog box, select a tag.</p>
+<p><strong>Note:</strong> On the right pane near the question, select Edit or Delete to edit or delete the post.</p>
+</li>
+<li>
+<p>Select <strong>Add</strong>.</p>
+</li>
+</ol>
+<p>The quiz appears on the feed.
+<img src="https:/Users/ajasraja/VSC/MDWorkshop/Images/6BB7CCED-AD7D-47D8-B157-0155C46E864C.jpeg" alt="Image"></p>
+<h3 id="add-a-poll">Add a Poll</h3>
+<p>To add a poll,</p>
+<p>On the Tech Writers Tribe App, perform one of the following:</p>
+<ol>
+<li>
+<p>On the left pane, select Create a <strong>Post</strong>.</p>
+</li>
+<li>
+<p>On the center pane, select the <strong>Add (+)</strong> button.</p>
+</li>
+<li>
+<p>On the center pane, click on <strong>Share something with the community</strong>.
+Create a Post dialog box appears.</p>
+</li>
+<li>
+<p>In the dialog box, select the <strong>Add Poll</strong> icon.</p>
+</li>
+<li>
+<p>In the Add Poll dialog box, in <strong>Your Question field</strong>, enter the desired question.
+Note: The word limit is 550.</p>
+</li>
+<li>
+<p>In the *<strong>Options field</strong>, enter the options.
+Note: To add more options, select Add more. You can add minimum of 2 and maximum of 6 Options can be added.</p>
+</li>
+<li>
+<p>From the <strong>Expiry dropdown</strong>, select the desired duration of the poll.</p>
+</li>
+<li>
+<p>(Optional) On the right pane of dialog box, select a tag.
+<strong>Note:</strong> On the right pane near the question, select Edit or Delete to edit or delete the post.</p>
+</li>
+<li>
+<p>Select <strong>Add</strong>.</p>
+</li>
+</ol>
+<p>The poll appears on the feed.
+<img src="https:/Users/ajasraja/VSC/MDWorkshop/Images/C551C9F2-4A1C-45B1-B44A-65FDC2418CB2.png" alt="Image"></p>
+
+            
+            
+        </body>
+        </html>
